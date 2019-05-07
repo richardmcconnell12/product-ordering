@@ -1,3 +1,6 @@
+// Making the list of products to be appended to DOM.
+// Creating the div for each of the product components to append to.
+
 import productComponent from "./productComponent"
 
 const productList = (productArr) => {
@@ -16,4 +19,3 @@ const productList = (productArr) => {
 
 export default productList
 
-// Making the list of products to be appended to DOM.
