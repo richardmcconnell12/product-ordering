@@ -1,3 +1,5 @@
+// Module that handles the fetch calls to the database.
+
 const dbCalls = {
 
     getAllProducts() {

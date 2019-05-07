@@ -1,7 +1,6 @@
 // Display an individual product component. Each product should have a title, short description, price, quantity, and an image.
 
-import dbCalls from "./dbCalls"
-dbCalls.getAllProducts();
+// Creating each div card for each product in database.
 
 const productComponent = (product) => {
     const component = `<div>
@@ -22,6 +21,4 @@ const productComponent = (product) => {
 
 export default productComponent
 
-// Creating each div card for each product in database.
 
-// Just posting dummy data.
